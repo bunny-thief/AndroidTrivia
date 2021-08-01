@@ -44,7 +44,7 @@ class TitleFragment : Fragment() {
         binding.aboutButton.setOnClickListener { view: View ->
             view.findNavController().navigate(R.id.action_titleFragment_to_aboutFragment)
         }
-        
+
         setHasOptionsMenu(true)
 
         return binding.root
